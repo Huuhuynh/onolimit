@@ -1,0 +1,6 @@
+ #styleInput tbody {display: contents !important; }
+#styleInput tr {display: table-row !important; }
+#styleInput .e-grid {
+    border-color: #e0e0e0;
+    height: 40vh;
+}

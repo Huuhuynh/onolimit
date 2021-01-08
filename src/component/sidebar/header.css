@@ -1,0 +1,96 @@
+.topnav {
+	overflow: hidden;
+	background-color: #b3bee8;
+  }
+  
+  .topnav a {
+	float: right;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .topnav a:hover {
+	background-color: #fff;
+	color: black;
+  }
+  
+  .topnav a.active {
+	background-color: #2196F3;
+	color: white;
+  }
+  
+  .topnav .search-container {
+	float: left;
+  }
+  .topnav .form-control{
+	width: 350px !important;
+    margin-left: 12px !important;
+    height: 34px;
+  }
+  .form-inline{
+	display: unset;
+  }
+  
+  .topnav input[type=text] {
+	padding: 6px;
+	margin-top: 8px;
+	font-size: 17px;
+	border: none;
+	
+  }
+  
+  .topnav .search-container button {
+	float: right;
+	padding: 6px 10px;
+	margin-top: 8px;
+	margin-right: 16px;
+	background: #ddd;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+	background: #ccc;
+  }
+  
+  @media screen and (max-width: 600px) {
+	.topnav .search-container {
+	  float: none;
+	}
+	.topnav a, .topnav input[type=text], .topnav .search-container button {
+	  float: none;
+	  display: block;
+	  text-align: left;
+	  width: 100%;
+	  margin: 0;
+	  padding: 14px;
+	}
+	.topnav input[type=text] {
+	  border: 1px solid #ccc;  
+	}
+  }
+  .icon-admin{
+	  background-image: url('./img/rsz_icon-user.png');
+	  width: 48px;
+	  height: 48px;
+  }
+  .dropdown-toggle::after{
+	display: none;
+  }
+  a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
+    content: '\e259';
+    display: none;
+    position: absolute;
+    right: 20px;
+    font-family: 'Glyphicons Halflings';
+    font-size: 0.6em;
+}
+.style-item{
+	color:#fff !important;
+	font-size: 17px;
+}
